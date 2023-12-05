@@ -18,7 +18,7 @@ The UNH Question and Answer Bot stands as a purpose-built, closed-domain solutio
 4. .env: Configuration file for storing your Google API key.
 
 ### Usage Instructions:
-1. Clone this repository to your local machine
+1. Clone UNH_QNA_project repository to your local machine
 2. Create a virtual environment
 3. Install the required dependencies in the requirements file
 4. Acquire an API key through makersuite.google.com and put it in .env file

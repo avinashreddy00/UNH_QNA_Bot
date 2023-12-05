@@ -21,13 +21,17 @@ The UNH Question and Answer Bot stands as a purpose-built, closed-domain solutio
 
 ### Usage Instructions:
 1. Clone UNH_QNA_project repository to your local machine
-``` git clone https://github.com/avinashreddy00/UNH_QNA_Bot/tree/main/UNH_QNA_project ```
-2. Create a virtual environment
-``` python -m venv /path/to/new/virtual/environment ``` 
-3. Install the required dependencies in the requirements file
+```bash
+ git clone https://github.com/avinashreddy00/UNH_QNA_Bot/tree/main/UNH_QNA_project
+```
+3. Create a virtual environment
+``` bash
+python -m venv /path/to/new/virtual/environment
+``` 
+5. Install the required dependencies in the requirements file
 ```   pip install -r requirements.txt ```
-4. Acquire an API key through makersuite.google.com and put it in .env file
+6. Acquire an API key through makersuite.google.com and put it in .env file
 ```   GOOGLE_API_KEY="your_api_key_here" ```
-5. Run the Streamlit app (streamlit run main.py)
+7. Run the Streamlit app (streamlit run main.py)
 ``` streamlit run main.py ```
-6. Use sample questions mentioned in the sample questions file or you can ask your questions regarding the University of New Haven
+8. Use sample questions mentioned in the sample questions file or you can ask your questions regarding the University of New Haven
